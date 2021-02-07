@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:background="@drawable/frame_back_dialog"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_detail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/tv_call1"
+            android:text="No Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail1"
+            android:layout_alignParentStart="true"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:drawableLeft="@drawable/call_"
+            android:drawablePadding="@dimen/four_dp"
+            android:textColor="@color/colorAccent_" />
+
+        <ImageView
+            android:id="@+id/nav1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_call1"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/four_dp"
+            android:rotation="45"
+            android:src="@drawable/ic_navigation" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:visibility="gone"
+        android:layout_below="@id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_detail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/tv_call2"
+            android:text="No Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail2"
+            android:layout_alignParentStart="true"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:drawableLeft="@drawable/call_"
+            android:drawablePadding="@dimen/four_dp"
+            android:textColor="@color/colorAccent_" />
+
+        <ImageView
+            android:id="@+id/nav2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_call2"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/four_dp"
+            android:rotation="45"
+            android:src="@drawable/ic_navigation" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_below="@id/rl_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_detail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/tv_call3"
+            android:text="No Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_detail3"
+            android:layout_alignParentStart="true"
+            android:lineSpacingExtra="@dimen/four_dp"
+            android:padding="@dimen/four_dp"
+            android:drawableLeft="@drawable/call_"
+            android:drawablePadding="@dimen/four_dp"
+            android:textColor="@color/colorAccent_" />
+
+        <ImageView
+            android:id="@+id/nav3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_call3"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/four_dp"
+            android:rotation="45"
+            android:src="@drawable/ic_navigation" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/four_dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="@color/Wtrans"
+        android:paddingStart="@dimen/eight_dp"
+        android:paddingEnd="@dimen/eight_dp"
+        android:text="Dismiss"
+        android:layout_below="@id/rl_3"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
+</ScrollView>

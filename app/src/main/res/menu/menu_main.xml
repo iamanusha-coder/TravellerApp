@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_hist"
+        android:title="History" />
+    <item
+        android:id="@+id/mi_prof"
+        android:title="Profile" />
+    <item
+        android:id="@+id/mi_chat"
+        android:title="Chatbot" />
+    <item
+        android:id="@+id/mi_logout"
+        android:title="Logout" />
+</menu>

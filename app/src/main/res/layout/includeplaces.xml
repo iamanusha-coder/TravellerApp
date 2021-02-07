@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/tv_placesinclude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/eight_dp"
+            android:text="Include Places to visit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent_" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c1"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="historical placee" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c2"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ancient temple" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c3"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="garden" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c4"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="theme park" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c5"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="zoo" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/c6"
+            style="@style/M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="mall" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@color/Wtrans"
+            android:paddingStart="@dimen/eight_dp"
+            android:paddingEnd="@dimen/eight_dp"
+            android:text="Dismiss"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</RelativeLayout>

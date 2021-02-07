@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_plans"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/four_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/plan11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:text="PLAN 1 ➭"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorAccent" />
+            <TextView
+                android:id="@+id/plan1"
+                android:background="@drawable/frame_back_grey"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:layout_below="@id/plan11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:text="save"
+                android:layout_below="@id/plan1"
+                android:layout_marginEnd="@dimen/four_dp"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/whitite"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/btn_save1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/plan22"
+                android:text="PLAN 2 ➭"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorAccent" />
+            <TextView
+                android:id="@+id/plan2"
+                android:layout_below="@id/plan22"
+                android:background="@drawable/frame_back_grey"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:text="save"
+                android:layout_below="@id/plan2"
+                android:layout_marginEnd="@dimen/four_dp"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/whitite"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/btn_save2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/plan33"
+                android:text="PLAN 3 ➭"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorAccent" />
+            <TextView
+                android:id="@+id/plan3"
+                android:layout_below="@id/plan33"
+                android:background="@drawable/frame_back_grey"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/eight_dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary" />
+            <Button
+                android:text="save"
+                android:layout_below="@id/plan3"
+                android:layout_marginEnd="@dimen/four_dp"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/whitite"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/btn_save3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
